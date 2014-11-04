@@ -1,15 +1,15 @@
 'use strict';
-
+/*
 angular.module('playNgMaterialApp')
-  .controller('NavbarCtrl', function ($scope, $location) {
-    $scope.menu = [{
-      'title': 'Home',
-      'link': '/'
-    }];
 
-    $scope.isCollapsed = true;
+.controller('AppCtrl', function($scope, $timeout, $mdSidenav) {
+$scope.toggleLeft = function() {
+    $mdSidenav('left').toggle();
+  };
+})
 
-    $scope.isActive = function(route) {
-      return route === $location.path();
-    };
-  });
+.controller('LeftCtrl', function($scope, $timeout, $mdSidenav) {
+  $scope.close = function() {
+    $mdSidenav('left').close();
+  };
+})*/
