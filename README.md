@@ -1,6 +1,10 @@
 play angular material
 =========
 
+### Angular Material
+
+ * [Document](https://material.angularjs.org/)
+
 ### 初期構築
 
 fullstackベース(Bootstrapを使わない)にAngular-materialを追加
@@ -8,7 +12,7 @@ fullstackベース(Bootstrapを使わない)にAngular-materialを追加
 ```
 yo angular-fullstack
 
-bower i angular-material
+bower i angular-material --save
 ```
 
 バージョンは1.3で
@@ -36,3 +40,11 @@ angular.module('playNgMaterialApp', [
 ])
 ...
 ```
+
+#### [Side Navigation](https://material.angularjs.org/#/demo/material.components.sidenav)
+
+ * src:``/client/app/main/main.controller.js``
+
+
+#### [Bottom Sheet](https://material.angularjs.org/#/demo/material.components.bottomSheet)
+

@@ -1,0 +1,17 @@
+<aside>
+  <!-- 左メニュー -->
+  <md-sidenav class="md-sidenav-left md-whiteframe-z5" component-id="left" is-locked-open="$media('md')">
+
+  <md-toolbar class="md-theme-indigo">
+    <h1 class="md-toolbar-tools">サイドメニュー</h1>
+  </md-toolbar>
+  <md-content class="md-padding" ng-controller="LeftCtrl">
+    <md-button ng-click="close()" class="md-primary" hide-md>
+      ちっちゃいメニューを閉じる
+    </md-button>
+    <div hide show-md>
+      通常メニュー
+      <ui-href ui-sref="main.bottomsheet">ボタン画面</ui-href>
+    </div>
+  </md-content>
+</md-sidenav>

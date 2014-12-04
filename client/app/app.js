@@ -9,7 +9,6 @@ angular.module('playNgMaterialApp', [
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider
-      .otherwise('/');
-
+      .otherwise('/top');
     $locationProvider.html5Mode(true);
   });
